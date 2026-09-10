@@ -26,8 +26,4 @@ Para el desarrollo de este laboratorio se utilizaron diferentes herramientas que
 
 ## Información Relevante sobre el Desarrollo del Laboratorio
 
-Este laboratorio permitió poner en práctica conceptos fundamentales de HTML5 y CSS3. Los ejercicios se enfocaron en la creación y estructuración de tablas, el uso de etiquetas semánticas, hipervínculos, metadatos y la aplicación de diferentes estilos mediante CSS.
-
-También se trabajó con selectores de etiqueta, clases e identificadores, permitiendo modificar de manera independiente diferentes elementos de una página web. Además, los ejercicios fueron ejecutados en el navegador para observar los cambios realizados en el código y comprobar el funcionamiento de los estilos aplicados.
-
-Estas actividades permitieron comprender de una manera más práctica cómo HTML se encarga de organizar el contenido de una página mientras que CSS permite controlar su apariencia y presentación.
+Este laboratorio permitió poner en práctica conceptos fundamentales de HTML5 y CSS3. Los ejercicios se enfocaron en la creación y estructuración de tablas, el uso de etiquetas semánticas, hipervínculos, metadatos y la aplicación de estilos mediante diferentes selectores CSS. También se trabajó con clases, identificadores, selectores por tipo, descendientes e hijos, lo que permitió comprender mejor cómo organizar y modificar la apariencia de los elementos dentro de una página web. Además, los ejercicios fueron ejecutados en el navegador para comprobar el funcionamiento del código y observar de forma práctica cómo HTML estructura el contenido y CSS controla su presentación visual.
