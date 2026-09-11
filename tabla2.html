@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Configuración de caracteres -->
+    <meta charset="UTF-8">
+
+    <!-- Permite que la página se adapte a diferentes tamaños de pantalla -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título de la pestaña -->
+    <title>Tabla 2</title>
+
+    <!-- CSS de la tabla -->
+    <style>
+
+        /* Estilo general de la tabla */
+        .tabla {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            text-align: right;
+            width: 600px;
+        }
+
+        /* Estilo de los encabezados */
+        .tabla th {
+            padding: 5px;
+            font-size: 16px;
+            background-color: #f2f2f2;
+            color: black;
+
+            border-right-width: 1px;
+            border-right-style: solid;
+            border-right-color: #558FA6;
+
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+
+            font-family: "Trebuchet MS", Arial;
+
+            /* Convierte el texto a mayúsculas */
+            text-transform: uppercase;
+        }
+
+        /* Estilo de las celdas pertenecientes a modo1 */
+        .tabla .modo1 td {
+            padding: 5px;
+
+            border-right-width: 1px;
+            border-right-style: solid;
+
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+
+            border-right-color: #A4C4D0;
+            border-bottom-color: #A4C4D0;
+
+            font-family: "Trebuchet MS", Arial;
+
+            text-align: left;
+        }
+
+        /* Estilo general de modo2 */
+        .tabla .modo2 {
+            padding: 5px;
+
+            border-right-width: 1px;
+            border-bottom-width: 1px;
+
+            border-right-style: solid;
+            border-bottom-style: solid;
+
+            border-right-color: #EBE9BC;
+            border-bottom-color: #EBE9BC;
+        }
+
+        /* Estilo de las celdas de modo2 */
+        .tabla .modo2 td {
+            font-size: 12px;
+            font-weight: bold;
+
+            background-color: #fdfdf1;
+
+            /* Texto rojo */
+            color: #990000;
+
+            border-bottom-style: solid;
+            border-right-color: #EBE9BC;
+
+            font-family: "Trebuchet MS", Arial;
+
+            text-align: left;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <!-- Inicio de la tabla -->
+    <table border="0" cellpadding="0" cellspacing="0" class="tabla">
+
+        <!-- Fila de encabezados -->
+        <tr class="modo1">
+
+            <th>Fecha</th>
+            <th>Unidades Vendidas</th>
+            <th>Precio por unidad</th>
+            <th>ITBMS</th>
+
+        </tr>
+
+
+        <!-- Primera fila de datos -->
+        <tr class="modo2">
+
+            <th>29/10/07</th>
+            <td>520</td>
+            <td>420</td>
+            <td>67.20</td>
+
+        </tr>
+
+
+        <!-- Segunda fila de datos -->
+        <tr class="modo1">
+
+            <th>29/10/07</th>
+            <td>520</td>
+            <td>420</td>
+            <td>67.20</td>
+
+        </tr>
+
+    </table>
+    <!-- Fin de la tabla -->
+
+</body>
+
+</html>
