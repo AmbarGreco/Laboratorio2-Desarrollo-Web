@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Metadatos de la página -->
+    <meta name="Description" content="..... Edite la Descripción" />
+    <meta name="Keywords" content="your, keywords" />
+
+    <meta name="Distribution" content="Global" />
+    <meta name="Author" content="Autor - Correo" />
+    <meta name="Robots" content="index,follow" />
+
+    <!-- Icono de la página -->
+    <link rel="shortcut icon" href="img/b_2i10.ico">
+
+    <!-- Título de la pestaña del navegador -->
+    <title>Ejemplo de Tabla</title>
+
+
+    <!-- Estilos CSS para mejorar la presentación de la tabla -->
+    <style>
+
+        /* Estilo general de la página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 40px;
+        }
+
+
+        /* Estilo principal de la tabla */
+        table {
+            width: 700px;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+
+        /* Título de la tabla */
+        caption {
+            font-size: 22px;
+            font-weight: bold;
+            padding: 15px;
+            background-color: #2c3e50;
+            color: white;
+        }
+
+
+        /* Estilos para los encabezados */
+        th {
+            padding: 10px;
+            border: 1px solid #cccccc;
+            background-color: #e5e5e5;
+        }
+
+
+        /* Estilos para las celdas */
+        td {
+            padding: 10px;
+            border: 1px solid #cccccc;
+            text-align: center;
+        }
+
+
+        /* Estilo especial para los nombres de las ciudades */
+        #buenos-aires,
+        #cordoba {
+            background-color: #74b9ff;
+            color: white;
+            text-align: left;
+        }
+
+
+        /* Alineación de las fechas y subtotales */
+        th[headers="buenos-aires"],
+        th[headers="cordoba"] {
+            text-align: left;
+        }
+
+
+        /* Cambia ligeramente el fondo al pasar el mouse */
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <!-- Inicio de la tabla -->
+    <table>
+
+
+        <!-- Título de la tabla -->
+        <caption>Informe de gastos de viaje</caption>
+
+
+        <!-- Encabezados principales -->
+        <tr>
+
+            <th></th>
+            <th>Comida</th>
+            <th>Hotel</th>
+            <th>Transporte</th>
+            <th>Subtotal</th>
+
+        </tr>
+
+
+        <!-- ========================= -->
+        <!-- DATOS DE BUENOS AIRES -->
+        <!-- ========================= -->
+
+        <tr>
+
+            <!-- Nombre de la ciudad -->
+            <th id="buenos-aires" axis="buenos-aires">
+                Buenos Aires
+            </th>
+
+        </tr>
+
+
+        <!-- Gastos del 25 de agosto -->
+        <tr>
+
+            <th headers="buenos-aires">25-Ago-97</th>
+
+            <td>37.34</td>
+            <td>112.00</td>
+            <td>45.00</td>
+            <td></td>
+
+        </tr>
+
+
+        <!-- Gastos del 26 de agosto -->
+        <tr>
+
+            <th headers="buenos-aires">26-Ago-97</th>
+
+            <td>27.28</td>
+            <td>112.00</td>
+            <td>45.00</td>
+            <td></td>
+
+        </tr>
+
+
+        <!-- Subtotales de Buenos Aires -->
+        <tr>
+
+            <th headers="buenos-aires">Subtotales</th>
+
+            <td>65.00</td>
+            <td>224.00</td>
+            <td>90.00</td>
+            <td>379.02</td>
+
+        </tr>
+
+
+        <!-- ========================= -->
+        <!-- DATOS DE CÓRDOBA -->
+        <!-- ========================= -->
+
+        <tr>
+
+            <!-- Nombre de la ciudad -->
+            <th id="cordoba" axis="cordoba">
+                Córdoba
+            </th>
+
+        </tr>
+
+
+        <!-- Gastos del 27 de agosto -->
+        <tr>
+
+            <th headers="cordoba">27-ago97</th>
+
+            <td>96.00</td>
+            <td>109.00</td>
+            <td>36.00</td>
+            <td></td>
+
+        </tr>
+
+
+        <!-- Gastos del 28 de agosto -->
+        <tr>
+
+            <th headers="cordoba">28-ago97</th>
+
+            <td>35.00</td>
+            <td>109.00</td>
+            <td>36.00</td>
+            <td></td>
+
+        </tr>
+
+
+        <!-- Subtotales de Córdoba -->
+        <tr>
+
+            <th headers="cordoba">Subtotales</th>
+
+            <td>196.27</td>
+            <td>442.00</td>
+            <td>162.00</td>
+            <td>800.27</td>
+
+        </tr>
+
+
+    </table>
+    <!-- Fin de la tabla -->
+
+</body>
+
+</html>
