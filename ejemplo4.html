@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8">
+
+    <!-- Permite adaptar la página a diferentes tamaños de pantalla -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título de la pestaña del navegador -->
+    <title>Ejemplo con Clases e IDs</title>
+
+
+    <!-- ============================== -->
+    <!-- ESTILOS CSS DEL EJEMPLO #4 -->
+    <!-- ============================== -->
+
+    <style>
+
+        /* Estilo general de la página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2em;
+            line-height: 1.6;
+        }
+
+
+        /* Selector de clase reutilizable */
+        .card-seccion {
+
+            /* Color de fondo de la sección */
+            background-color: #f4f6f9;
+
+            /* Borde azul en el lado izquierdo */
+            border-left: 4px solid #007bff;
+
+            /* Espacio interno */
+            padding: 1.5em;
+
+            /* Espacio debajo de la sección */
+            margin-bottom: 1em;
+
+            /* Bordes ligeramente redondeados */
+            border-radius: 4px;
+        }
+
+
+        /* Selector de ID único para un elemento específico */
+        #footer-recurso {
+
+            /* Separación con respecto al contenido superior */
+            margin-top: 1em;
+
+            /* Espacio interno superior */
+            padding-top: 0.5em;
+
+            /* Línea superior del footer */
+            border-top: 1px solid #dcdcdc;
+
+            /* Tamaño de letra */
+            font-size: 0.9em;
+
+            /* Color del texto */
+            color: #555;
+        }
+
+
+        /* Selector de clase para resaltar texto o enlaces */
+        .link-externo {
+
+            /* Color rojo del enlace */
+            color: #d9534f;
+
+            /* Texto en negrita */
+            font-weight: bold;
+
+            /* Quita el subrayado normal del enlace */
+            text-decoration: none;
+        }
+
+
+        /* Estilo que se aplica al pasar el mouse sobre el enlace */
+        .link-externo:hover {
+
+            /* Agrega subrayado al pasar el mouse */
+            text-decoration: underline;
+        }
+
+
+        /* Estilo para elementos de código */
+        code {
+
+            /* Color de fondo */
+            background-color: #e2e8f0;
+
+            /* Espacio interno */
+            padding: 0.2em 0.4em;
+
+            /* Bordes redondeados */
+            border-radius: 4px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- Usamos una clase (.card-seccion) para dar estilo a esta sección en particular -->
+    <section class="card-seccion">
+
+
+        <!-- Título de la sección -->
+        <h2>Ejemplo Práctico: Navegación Web</h2>
+
+
+        <!-- Explicación del ejemplo -->
+        <p>
+            El siguiente párrafo contiene un hipervínculo que redirige al usuario hacia una página externa:
+        </p>
+
+
+        <!-- Párrafo que contiene el enlace -->
+        <p>
+
+            Para obtener más información técnica, puedes visitar el siguiente
+
+            <!-- Usamos una clase (.link-externo) para estilizar este enlace de manera específica -->
+            <a href="https://es.wikipedia.org/wiki/PHP"
+               target="_blank"
+               rel="noopener"
+               class="link-externo">
+                Enlace a PHP
+            </a>.
+
+        </p>
+
+
+        <!-- Usamos un ID (#footer-recurso) por ser un pie de sección único dentro de este bloque -->
+        <footer id="footer-recurso">
+
+            <p>
+                <strong>Nota:</strong>
+                Este enlace abre una fuente externa de consulta académica.
+                Última revisión: 2026.
+            </p>
+
+        </footer>
+
+
+    </section>
+
+
+</body>
+
+</html>
